@@ -1,7 +1,5 @@
 import React from "react";
-import img from "../assets/img.gif";
-import com from "../assets/computer.gif";
-import load from "../assets/under.gif";
+import com from "../assets/computer.png";
 
 export default function AboutUs() {
   return (
@@ -10,7 +8,6 @@ export default function AboutUs() {
         <div className="title md:ml-20">
           <h1 className="md:text-4xl  text-xl p-5 font-semibold font-[Rubik]">
             About Us
-            <img src={load} alt="" className="md:w-20" />
           </h1>
 
           <div className="about grid grid-cols-1 text-justify">
@@ -54,7 +51,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="gif flex  ">
-          <img src={img} alt="Example GIF" />
+          <img src={com} alt="Example GIF" />
         </div>
       </div>
     </div>
