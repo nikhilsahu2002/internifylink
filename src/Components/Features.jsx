@@ -27,7 +27,7 @@ export default function Features() {
               Email Notifications
             </h1>
 
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400 text-justify">
               The email notifications about important events, such as upcoming
               deadlines, new assignments, and changes to your schedule.
             </p>
@@ -45,7 +45,7 @@ export default function Features() {
               Simple Interface
             </h1>
 
-            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400 ">
+            <p class="mb-3 font-normal text-gray-500 dark:text-gray-400 text-justify ">
               The simplicity of the interface makes it easy to use and navigate.
               The information is presented in a clear and concise way.
             </p>

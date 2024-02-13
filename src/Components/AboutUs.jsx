@@ -14,7 +14,7 @@ export default function AboutUs() {
           </h1>
 
           <div className="about grid grid-cols-1 text-justify">
-            <p className="md:w-96 md:font-medium  text-sm ml-5 font-[Rubik] text-justify">
+            <p className="md:w-96 md:font-medium  text-sm max-w-sm mx-5 font-[Rubik] text-justify">
               At INTERNIFYLINK , we are passionate about empowering innovations
               that shape a better future for businesses and individuals alike.
             </p>

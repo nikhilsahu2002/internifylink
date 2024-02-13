@@ -46,7 +46,7 @@ export default function Header() {
                 InternshipOpportunity
               </h5>
             </a>
-            <p class="mb-3 font-normal">
+            <p class="mb-3 font-normal text-justify">
               Gain hands-on experience, build professional networks, and
               discover career pathways. Whether you're a student or a
               professional, internships offer invaluable opportunities for
