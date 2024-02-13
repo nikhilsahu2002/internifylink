@@ -15,7 +15,7 @@ export default function Header() {
                 {" "}
                 InternifyLink
               </h1>
-              <p className="flex lg:text-base lg:ml-28 lg:mr-10 md:text-sm lg:w-auto  lg:justify-center lg:p-5  font-light">
+              <p className="flex lg:text-base lg:ml-28 lg:mr-10 md:text-sm lg:w-auto  lg:justify-center lg:p-5  font-light text-justify">
                 Our goal is to empower the next generation of tech leaders. Our
                 internship program offers hands-on experience in different
                 fields.
@@ -34,7 +34,7 @@ export default function Header() {
           </div>
         </div>
         <div className="grid  grid-cols-1 md:grid-cols-3 px-7 pt-5 gap-4 py-14">
-          <div class="max-w-sm  p-6 bg-white border rounded-lg shadow  drop-shadow-xl shadow-black hover:bg-purple-500 hover:translate-y-2 delay-150 duration-500 hover:text-white ">
+          <div class="max-w-sm  p-6 bg-white border rounded-lg shadow  drop-shadow-xl shadow-purple-500 hover:bg-purple-500 hover:translate-y-2 delay-150 duration-500 hover:text-white ">
             <img
               width="50"
               height="50"
@@ -53,7 +53,7 @@ export default function Header() {
               growth and advancement.
             </p>
           </div>
-          <div class="max-w-sm hover:translate-y-2 delay-150 duration-500  p-6 bg-white border rounded-lg shadow  drop-shadow-xl shadow-black hover:bg-purple-500 hover:text-white ">
+          <div class="max-w-sm hover:translate-y-2 delay-150 duration-500  p-6 bg-white border rounded-lg shadow  drop-shadow-xl shadow-purple-700 hover:bg-purple-500 hover:text-white text-justify">
             <img
               width="50"
               height="50"
@@ -72,7 +72,7 @@ export default function Header() {
               endless possibilities that await.
             </p>
           </div>
-          <div class="max-w-sm hover:translate-y-2 delay-150 duration-500 p-6 bg-white border rounded-lg shadow  drop-shadow-xl shadow-black hover:bg-purple-500 hover:text-white ">
+          <div class="max-w-sm hover:translate-y-2 delay-150 duration-500 p-6 bg-white border rounded-lg shadow  drop-shadow-xl shadow-purple-700 hover:bg-purple-500 hover:text-white  text-justify ">
             <img
               width="50"
               height="50"

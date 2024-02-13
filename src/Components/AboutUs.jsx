@@ -13,8 +13,8 @@ export default function AboutUs() {
             <img src={load} alt="" className="md:w-20" />
           </h1>
 
-          <div className="about grid grid-cols-1 ">
-            <p className="md:w-96 md:font-medium  text-xs ml-5 font-[Rubik]">
+          <div className="about grid grid-cols-1 text-justify">
+            <p className="md:w-96 md:font-medium  text-sm ml-5 font-[Rubik] text-justify">
               At INTERNIFYLINK , we are passionate about empowering innovations
               that shape a better future for businesses and individuals alike.
             </p>

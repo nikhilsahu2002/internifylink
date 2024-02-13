@@ -7,7 +7,7 @@ export default function Features() {
         <h1 className="font-semibold md:text-5xl text-2xl">Our Features</h1>{" "}
       </div>
       <div className="disc flex justify-center">
-        <p className="max-w-xl  p-5 md:text-md text-xs md:pb-10 text-center">
+        <p className="max-w-xl  p-5 md:text-md text-sm md:pb-10 text-center">
           These are just some of the our features. By providing these features,
           We can make a valuable resource for students looking for internships.
         </p>
