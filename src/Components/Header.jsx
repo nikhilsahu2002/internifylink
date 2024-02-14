@@ -15,7 +15,7 @@ export default function Header() {
                 {" "}
                 InternifyLink
               </h1>
-              <p className="flex lg:text-base lg:ml-28 lg:mr-10 md:text-sm lg:w-auto  lg:justify-center lg:p-5  font-light text-justify">
+              <p className="flex lg:text-base lg:ml-28 lg:mr-10 md:text-md lg:w-auto  lg:justify-center lg:p-5  font-medium text-justify">
                 Our goal is to empower the next generation of tech leaders. Our
                 internship program offers hands-on experience in different
                 fields.

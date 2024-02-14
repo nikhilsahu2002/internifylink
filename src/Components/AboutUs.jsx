@@ -6,12 +6,12 @@ export default function AboutUs() {
     <div className="py-11">
       <div className="grid md:grid-cols-2">
         <div className="title md:ml-20">
-          <h1 className="md:text-4xl  text-xl p-5 font-semibold font-[Rubik]">
+          <h1 className="md:text-5xl  text-xl p-5 font-semibold font-[Rubik]">
             About Us
           </h1>
 
           <div className="about grid grid-cols-1 text-justify">
-            <p className="md:w-96 md:font-medium  text-sm max-w-sm mx-5 font-[Rubik] text-justify">
+            <p className="md:w-96 md:font-medium  text-md max-w-sm mx-5 font-[Rubik] text-justify">
               At INTERNIFYLINK , we are passionate about empowering innovations
               that shape a better future for businesses and individuals alike.
             </p>
@@ -19,7 +19,7 @@ export default function AboutUs() {
               <span
                 href="#"
                 class="block max-w-lg h-auto w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-purple-800 dark:border-purple-700 dark:hover:bg-green-700 translate ease-in-out delay-75 hover:scale-105 duration-500">
-                <p class="md:font-normal text-sm text-gray-700 dark:text-white">
+                <p class="md:font-normal text-md text-gray-700 dark:text-white">
                   <h1 className="font-semibold">
                     Cultivating Opportunities at InternifyLink
                   </h1>
