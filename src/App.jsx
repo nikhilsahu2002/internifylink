@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Router } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./Components/AboutUs";
 import Features from "./Components/Features";
@@ -12,32 +12,34 @@ import Programes from "./Components/Intership/Programes";
 function App() {
   return (
     <>
-      <Routes>
-        <Route
-          exact
-          path="/"
-          element={
-            <>
-              {" "}
-              <Nav />
-              <Header />
-              <Programe />
-              <AboutUs />
-              <Features />
-              <PreFooter />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path="/intership"
-          exact
-          element={
-            <>
-              <Programes />
-            </>
-          }></Route>
-      </Routes>
+      <Router>
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                {" "}
+                <Nav />
+                <Header />
+                <Programe />
+                <AboutUs />
+                <Features />
+                <PreFooter />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/intership"
+            exact
+            element={
+              <>
+                <Programes />
+              </>
+            }></Route>
+        </Routes>
+      </Router>
     </>
   );
 }
