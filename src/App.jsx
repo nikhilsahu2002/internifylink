@@ -14,6 +14,7 @@ function App() {
     <>
       <Routes>
         <Route
+          exact
           path="/"
           element={
             <>
@@ -30,6 +31,7 @@ function App() {
         />
         <Route
           path="/intership"
+          exact
           element={
             <>
               <Programes />
