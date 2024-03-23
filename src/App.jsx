@@ -1,4 +1,4 @@
-import { Route, Routes, Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./Components/AboutUs";
 import Features from "./Components/Features";
@@ -11,36 +11,34 @@ import Programes from "./Components/Intership/Programes";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route
-            exact
-            path="/"
-            element={
-              <>
-                {" "}
-                <Nav />
-                <Header />
-                <Programe />
-                <AboutUs />
-                <Features />
-                <PreFooter />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="/intership"
-            exact
-            element={
-              <>
-                <Programes />
-              </>
-            }></Route>
-        </Routes>
-      </Router>
-    </>
+    <div className="App">
+      <Routes>
+        <Route
+          exact
+          path="/"
+          element={
+            <>
+              <Nav />
+              <Header />
+              <Programe />
+              <AboutUs />
+              <Features />
+              <PreFooter />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/intership"
+          exact
+          element={
+            <>
+              <Programes />
+            </>
+          }
+        />
+      </Routes>
+    </div>
   );
 }
 
